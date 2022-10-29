@@ -1,0 +1,15 @@
+D:\MyProjects\NEW\Dapper.WebApp.CV\DataAccsessLayer\bin\Debug\net5.0\DataAccsessLayer.deps.json
+D:\MyProjects\NEW\Dapper.WebApp.CV\DataAccsessLayer\bin\Debug\net5.0\DataAccsessLayer.dll
+D:\MyProjects\NEW\Dapper.WebApp.CV\DataAccsessLayer\bin\Debug\net5.0\DataAccsessLayer.pdb
+D:\MyProjects\NEW\Dapper.WebApp.CV\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.csproj.AssemblyReference.cache
+D:\MyProjects\NEW\Dapper.WebApp.CV\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\NEW\Dapper.WebApp.CV\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.AssemblyInfoInputs.cache
+D:\MyProjects\NEW\Dapper.WebApp.CV\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.AssemblyInfo.cs
+D:\MyProjects\NEW\Dapper.WebApp.CV\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.csproj.CoreCompileInputs.cache
+D:\MyProjects\NEW\Dapper.WebApp.CV\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.dll
+D:\MyProjects\NEW\Dapper.WebApp.CV\DataAccsessLayer\obj\Debug\net5.0\refint\DataAccsessLayer.dll
+D:\MyProjects\NEW\Dapper.WebApp.CV\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.pdb
+D:\MyProjects\NEW\Dapper.WebApp.CV\DataAccsessLayer\obj\Debug\net5.0\ref\DataAccsessLayer.dll
+D:\MyProjects\NEW\Dapper.WebApp.CV\DataAccsessLayer\bin\Debug\net5.0\EntityLayer.dll
+D:\MyProjects\NEW\Dapper.WebApp.CV\DataAccsessLayer\bin\Debug\net5.0\EntityLayer.pdb
+D:\MyProjects\NEW\Dapper.WebApp.CV\DataAccsessLayer\obj\Debug\net5.0\DataAccsessLayer.csproj.CopyComplete

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KQui1e8P+a1f+yFg+VLUN/IzXoEefaSnojwieNi36yGl9qTbDE2LYGrV++waEsESOT0K2mNe07d1UcptQyIzIQ==",
+  "success": true,
+  "projectFilePath": "D:\\MyProjects\\NEW\\Dapper.WebApp.CV\\EntityLayer\\EntityLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Murad\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\Murad\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512"
+  ],
+  "logs": []
+}
