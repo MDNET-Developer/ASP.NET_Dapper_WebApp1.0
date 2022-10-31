@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccsessLayer", "DataAcc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "DTO\DTO.csproj", "{BF9D3E8D-D1C1-4545-AC62-85BBD4CF8AED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{F8230EE1-23F7-4744-8EBA-F696CA9656C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{F8230EE1-23F7-4744-8EBA-F696CA9656C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.WebAppCV", "Dapper.WebAppCV\Dapper.WebAppCV.csproj", "{FF02F4EE-A044-48BE-895B-D544F81211DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F8230EE1-23F7-4744-8EBA-F696CA9656C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8230EE1-23F7-4744-8EBA-F696CA9656C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8230EE1-23F7-4744-8EBA-F696CA9656C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF02F4EE-A044-48BE-895B-D544F81211DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF02F4EE-A044-48BE-895B-D544F81211DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF02F4EE-A044-48BE-895B-D544F81211DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF02F4EE-A044-48BE-895B-D544F81211DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
