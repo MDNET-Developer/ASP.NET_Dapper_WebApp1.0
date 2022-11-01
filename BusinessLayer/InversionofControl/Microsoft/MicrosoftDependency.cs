@@ -32,6 +32,8 @@ namespace BusinessLayer.InversionofControl.Microsoft
 
             services.AddScoped(typeof(IGenericRepository<>), typeof(DpGenericRepository<>));
             services.AddScoped(typeof(IGenericService<>), typeof(GenericManager<>));
+            services.AddScoped<IAppUserService, AppUserManager>();
+            services.AddScoped<IAppUserDal, AppUserDal>();
 
             services.AddTransient<IValidator<AppUserUpdateDto>, AppUserUpdateValidator>();
             services.AddTransient<IValidator<CertificationAddDto>, CertificationAddDtoValidator>();

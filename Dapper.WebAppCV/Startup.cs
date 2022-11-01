@@ -1,5 +1,6 @@
 using BusinessLayer.InversionofControl.Microsoft;
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -24,10 +25,32 @@ namespace Dapper.WebAppCV
 
         // This method gets called by the runtime. Use this method to add services to the container.
         [Obsolete]
+
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCustomDependency(Configuration);
             services.AddControllersWithViews().AddFluentValidation();
+
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+            .AddCookie(options =>
+            {
+                //web saytlarda console bolumunde document.coockie yazarken gelen melumatlari baglayir
+                options.Cookie.HttpOnly = true;
+
+                //Cookie-nin adi
+                options.Cookie.Name = "DapperAsp.Net";
+
+                //Cookie-nin qalma muddetini teyin edir
+                options.ExpireTimeSpan = TimeSpan.FromDays(30);
+
+
+                //Eger lax qeyd etsek diger veb sehifelerde coockie-nin istifadesine icaze vereceyik, strict olarsa icaze vermeyeceyik.
+                options.Cookie.SameSite=Microsoft.AspNetCore.Http.SameSiteMode.Strict;
+
+                //Always desek bu coockie yalniz htttps de isleyer,sameasrequest desek hem http hemde https de isleyecek
+                options.Cookie.SecurePolicy = Microsoft.AspNetCore.Http.CookieSecurePolicy.SameAsRequest;
+                options.LoginPath=new Microsoft.AspNetCore.Http.PathString("/AdminSignIn/Index/");
+           });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,7 +70,7 @@ namespace Dapper.WebAppCV
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

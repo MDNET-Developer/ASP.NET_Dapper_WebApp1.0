@@ -10,5 +10,6 @@ namespace DataAccsessLayer.Interfaces
 {
     public interface IAppUserDal: IGenericRepository<AppUser>
     {
+        bool CheckUser(string username, string password);
     }
 }
