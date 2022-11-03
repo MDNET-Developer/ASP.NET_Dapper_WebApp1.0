@@ -20,21 +20,21 @@ using Dapper.WebAppCV;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "D:\MyProjects\NEW\Dapper.WebApp.CV\Dapper.WebAppCV\Views\_ViewImports.cshtml"
-using Dapper.WebAppCV.Models;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
 #line 4 "D:\MyProjects\NEW\Dapper.WebApp.CV\Dapper.WebAppCV\Views\_ViewImports.cshtml"
 using Dapper.WebAppCV.Areas.Admin.Models;
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "D:\MyProjects\NEW\Dapper.WebApp.CV\Dapper.WebAppCV\Views\_ViewImports.cshtml"
+using Dapper.WebAppCV.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"04d2c2075708f29232db9714f6e7f7a15cbb6522", @"/Views/Shared/_AdminLayout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"614a912f3b0774cc824d47fc4242735a355fe3f8", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dafc01bcfda7674ed15f3e6fca2d728964d8c6b8", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared__AdminLayout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable

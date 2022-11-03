@@ -137,3 +137,11 @@ D:\MyProjects\NEW\Dapper.WebApp.CV\Dapper.WebAppCV\obj\Debug\net5.0\Razor\Views\
 D:\MyProjects\NEW\Dapper.WebApp.CV\Dapper.WebAppCV\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminHome\Index.cshtml.g.cs
 D:\MyProjects\NEW\Dapper.WebApp.CV\Dapper.WebAppCV\obj\Debug\net5.0\Razor\Areas\Admin\Views\AdminSignIn\Index.cshtml.g.cs
 D:\MyProjects\NEW\Dapper.WebApp.CV\Dapper.WebAppCV\bin\Debug\net5.0\libman.json
+D:\MyProjects\NEW\Dapper.WebApp.CV\Dapper.WebAppCV\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+D:\MyProjects\NEW\Dapper.WebApp.CV\Dapper.WebAppCV\obj\Debug\net5.0\Razor\Areas\Admin\Views\Certification\Index.cshtml.g.cs
+D:\MyProjects\NEW\Dapper.WebApp.CV\Dapper.WebAppCV\bin\Debug\net5.0\AutoMapper.dll
+D:\MyProjects\NEW\Dapper.WebApp.CV\Dapper.WebAppCV\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\MyProjects\NEW\Dapper.WebApp.CV\Dapper.WebAppCV\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\MyProjects\NEW\Dapper.WebApp.CV\Dapper.WebAppCV\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\MyProjects\NEW\Dapper.WebApp.CV\Dapper.WebAppCV\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\MyProjects\NEW\Dapper.WebApp.CV\Dapper.WebAppCV\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

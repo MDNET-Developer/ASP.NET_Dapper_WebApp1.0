@@ -30,7 +30,7 @@ namespace Dapper.WebAppCV
         {
             services.AddCustomDependency(Configuration);
             services.AddControllersWithViews().AddFluentValidation();
-
+            services.AddAutoMapper(typeof(Startup));
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
             .AddCookie(options =>
             {
